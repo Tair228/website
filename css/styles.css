@@ -1,0 +1,202 @@
+/* текстовые свойства */
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+    line-height: 130%;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+
+.note {
+    font-size: 20px;
+    /* margin: 50px;
+    margin: 20px;
+    margin: 80px;
+    margin: 150px; */
+    margin-top: 50px;
+    margin-bottom: 80px;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(44, 66, 189);
+}
+
+.link:visited {
+    color: rgb(145, 255, 0);
+}
+
+
+
+
+/* отступы */
+* {
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+
+}
+
+.container {
+    max-width: 1100px;
+    /* background-color: aliceblue; */
+    margin: 0 auto;
+   padding: 0 35px;
+}
+
+h1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    padding-left: 30px;
+}
+
+
+/* медиаконтент */
+
+img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.video {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    aspect-ratio: 16/9;
+}
+
+
+/* конопка скачивания */
+
+.button{
+    
+    display: block;
+    margin: 50px auto;
+    padding: 25px 50px;
+    width: 45%;
+    border-radius: 100px;
+    background-color: rgb(175, 148, 148);
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.button:hover {
+    background-color: aqua;
+}
+
+/* шапка сайта */
+header {
+    background-color: rgb(155, 255, 170);
+    height: 130px;
+}
+
+
+.menu-container {
+    height: 30px;
+    padding: 50px 35px;
+    margin: 0 auto;
+    max-width: 1100px;
+    text-align: center;
+}
+
+.menu {
+    margin-right: 100px;
+    color: rgb(73, 36, 112);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.menu:hover {
+    color: rgb(0, 0, 0);
+}
+
+/* подвал сайта */
+
+footer {
+    height: 230px;
+    background-color: aqua;
+
+}
+.footer-container {
+    height: 30px;
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 100px 35px;
+}
+
+.author {
+    color: rgb(0, 0, 0); 
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* содержание статьи */
+
+.chapters {
+    display: block;
+    text-decoration: none;
+    color: rgb(73, 36, 112);
+}
+
+.chapters:hover{
+    color: rgb(0, 0, 0);
+}
+
+.content-border {
+    margin-bottom: 50px;
+    /* background-color: rgb(150, 251, 251); */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    border-top: black 3px solid;
+    border-bottom: black 3px solid ;
+} 
+
+
+
+
